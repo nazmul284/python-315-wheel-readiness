@@ -1,0 +1,132 @@
+{
+  "python": "/Users/nazmul/pp/bench-py315-wheels/.venv-verify/bin/python",
+  "mismatches": 4,
+  "rows": [
+    {
+      "package": "requests",
+      "classified": "pure",
+      "resolver_installs": true,
+      "agrees": true,
+      "note": ""
+    },
+    {
+      "package": "click",
+      "classified": "pure",
+      "resolver_installs": true,
+      "agrees": true,
+      "note": ""
+    },
+    {
+      "package": "ruff",
+      "classified": "pure",
+      "resolver_installs": true,
+      "agrees": true,
+      "note": ""
+    },
+    {
+      "package": "uv",
+      "classified": "pure",
+      "resolver_installs": true,
+      "agrees": true,
+      "note": ""
+    },
+    {
+      "package": "cryptography",
+      "classified": "abi3",
+      "resolver_installs": true,
+      "agrees": true,
+      "note": ""
+    },
+    {
+      "package": "tokenizers",
+      "classified": "abi3",
+      "resolver_installs": false,
+      "agrees": false,
+      "note": "no usable wheels and all of:"
+    },
+    {
+      "package": "psutil",
+      "classified": "abi3",
+      "resolver_installs": true,
+      "agrees": true,
+      "note": ""
+    },
+    {
+      "package": "pynacl",
+      "classified": "abi3",
+      "resolver_installs": true,
+      "agrees": true,
+      "note": ""
+    },
+    {
+      "package": "numpy",
+      "classified": "built",
+      "resolver_installs": true,
+      "agrees": true,
+      "note": ""
+    },
+    {
+      "package": "orjson",
+      "classified": "built",
+      "resolver_installs": true,
+      "agrees": true,
+      "note": ""
+    },
+    {
+      "package": "msgspec",
+      "classified": "blocked",
+      "resolver_installs": false,
+      "agrees": false,
+      "note": "no usable wheels and you require"
+    },
+    {
+      "package": "duckdb",
+      "classified": "blocked",
+      "resolver_installs": false,
+      "agrees": false,
+      "note": "no usable wheels and only the following versions of duckdb are"
+    },
+    {
+      "package": "pandas",
+      "classified": "blocked",
+      "resolver_installs": false,
+      "agrees": true,
+      "note": "no usable wheels and you require"
+    },
+    {
+      "package": "pyyaml",
+      "classified": "blocked",
+      "resolver_installs": false,
+      "agrees": true,
+      "note": "no usable wheels and only the following versions of pyyaml are"
+    },
+    {
+      "package": "aiohttp",
+      "classified": "blocked",
+      "resolver_installs": true,
+      "agrees": false,
+      "note": ""
+    },
+    {
+      "package": "pyarrow",
+      "classified": "blocked",
+      "resolver_installs": false,
+      "agrees": true,
+      "note": "no wheels with a matching Python ABI tag (e.g., `cp315`) and only"
+    },
+    {
+      "package": "asyncpg",
+      "classified": "blocked",
+      "resolver_installs": false,
+      "agrees": true,
+      "note": "no usable wheels and only the following versions of asyncpg are"
+    },
+    {
+      "package": "lz4",
+      "classified": "blocked",
+      "resolver_installs": false,
+      "agrees": true,
+      "note": "no usable wheels and you require lz4,"
+    }
+  ]
+}
